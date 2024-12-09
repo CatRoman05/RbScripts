@@ -100,26 +100,17 @@ local function makeImmortal()
 end
 
 Toggle.MouseButton1Click:connect(function()
-	if Status.Text == "off" then
-		IS = true
-		Status.Text = "on"
-		Status.TextColor3 = Color3.new(0,185,0)
-		Stepped = game:GetService("RunService").Stepped:Connect(function()
-			if not IS == false then
-				for a, b in pairs(Workspace:GetChildren()) do
-                if b.Name == Plr.Name then
-                for i, v in pairs(Workspace[Plr.Name]:GetChildren()) do
-                if v:IsA("BasePart") then
-                v.CanCollide = false
-                end end end end
-			else
-				Stepped:Disconnect()
-			end
-		end)
-	elseif Status.Text == "on" then
-		IS = false
-		Status.Text = "off"
-		Status.TextColor3 = Color3.new(170,0,0)
-	end
+    if Status.Text == "off" then
+        IS = true
+        Status.Text = "on"
+        Status.TextColor3 = Color3.new(0, 185, 0)
+        Stepped = game:GetService("RunService").Stepped:Connect(function()
+            makeImmortal()
+        end)
+    elseif Status.Text == "on" then
+        IS = false
+        Status.Text = "off"
+        Status.TextColor3 = Color3.new(170, 0, 0)
+        Stepped:Disconnect()
+    end
 end)
-humanoid.TakeDamage:connect(makeImmortal)
