@@ -1,12 +1,13 @@
 local Workspace = game:GetService("Workspace")
 local CoreGui = game:GetService("CoreGui")
+local Players = game:GetService("Players")
 local Immortality = Instance.new("ScreenGui")
 local BG = Instance.new("Frame")
 local Title = Instance.new("TextLabel")
 local Toggle = Instance.new("TextButton")
 local StatusPF = Instance.new("TextLabel")
 local Status = Instance.new("TextLabel")
-local Pl = Players.LocalPlayer
+local Plr = Players.LocalPlayer
 local IS = false
 
 Immortality.Name = "Immortality"
@@ -84,11 +85,11 @@ Status.TextXAlignment = Enum.TextXAlignment.Left
 
 Toggle.MouseButton1Click:connect(function()
 	if Status.Text == "off" then
-		Clipon = true
+		IS = true
 		Status.Text = "on"
 		Status.TextColor3 = Color3.new(0,185,0)
 		Stepped = game:GetService("RunService").Stepped:Connect(function()
-			if not Clipon == false then
+			if not IS == false then
 				for a, b in pairs(Workspace:GetChildren()) do
                 if b.Name == Plr.Name then
                 for i, v in pairs(Workspace[Plr.Name]:GetChildren()) do
@@ -100,7 +101,7 @@ Toggle.MouseButton1Click:connect(function()
 			end
 		end)
 	elseif Status.Text == "on" then
-		Clipon = false
+		IS = false
 		Status.Text = "off"
 		Status.TextColor3 = Color3.new(170,0,0)
 	end
