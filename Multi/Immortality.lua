@@ -9,6 +9,8 @@ local StatusPF = Instance.new("TextLabel")
 local Status = Instance.new("TextLabel")
 local Plr = Players.LocalPlayer
 local IS = false
+local Character = Plr.Character
+local humanoid = Character:WaitForChild("Humanoid")
 
 Immortality.Name = "Immortality"
 Immortality.Parent = game.CoreGui
@@ -82,6 +84,20 @@ Status.TextStrokeColor3 = Color3.new(0.180392, 0, 0.431373)
 Status.TextWrapped = true
 Status.TextXAlignment = Enum.TextXAlignment.Left
 
+local function makeImmortal()
+    if IS then
+        humanoid.MaxHealth = math.huge
+        humanoid.Health = math.huge
+    else
+        humanoid.MaxHealth = 100
+        humanoid.Health = humanoid.MaxHealth
+    end
+    humanoid.HealthChanged:Connect(function(health)
+        if health <= 0 and IS then
+            humanoid.Health = humanoid.MaxHealth
+        end
+    end)
+end
 
 Toggle.MouseButton1Click:connect(function()
 	if Status.Text == "off" then
@@ -106,3 +122,4 @@ Toggle.MouseButton1Click:connect(function()
 		Status.TextColor3 = Color3.new(170,0,0)
 	end
 end)
+humanoid.TakeDamage:connect(makeImmortal)
