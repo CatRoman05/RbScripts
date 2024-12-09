@@ -15,7 +15,7 @@ Immortality.Parent = game.CoreGui
 
 BG.Name = "BG"
 BG.Parent = Immortality
-BG.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
+BG.BackgroundColor3 = Color3.fromRGB(9, 109, 217)
 BG.BorderColor3 = Color3.new(0.0588235, 0.0588235, 0.0588235)
 BG.BorderSizePixel = 2
 BG.Position = UDim2.new(0.149479166, 0, 0.82087779, 0)
@@ -25,7 +25,7 @@ BG.Draggable = true
 
 Title.Name = "Title"
 Title.Parent = BG
-Title.BackgroundColor3 = Color3.new(0.266667, 0.00392157, 0.627451)
+Title.BackgroundColor3 = Color3.fromRGB(9, 109, 217)
 Title.BorderColor3 = Color3.new(0.180392, 0, 0.431373)
 Title.BorderSizePixel = 2
 Title.Size = UDim2.new(0, 210, 0, 33)
@@ -38,7 +38,7 @@ Title.TextStrokeColor3 = Color3.new(0.180392, 0, 0.431373)
 Title.TextStrokeTransparency = 0
 
 Toggle.Parent = BG
-Toggle.BackgroundColor3 = Color3.new(0.266667, 0.00392157, 0.627451)
+Toggle.BackgroundColor3 = Color3.fromRGB(9, 109, 217)
 Toggle.BorderColor3 = Color3.new(0.180392, 0, 0.431373)
 Toggle.BorderSizePixel = 2
 Toggle.Position = UDim2.new(0.152380958, 0, 0.374192119, 0)
