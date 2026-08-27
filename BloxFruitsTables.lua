@@ -174,4 +174,43 @@ return {
         -- Levels 2800+: Pirate Alpha
         {Level = 2800, MaxLevel = 9999, Monster = "Pirate Alpha", Name = "PirateQuest1", Lvl = 15, Check = "Pirate Alpha", CFrameQ = CFrame.new(800, 30, 1800), CFrameMon = CFrame.new(1550, 30, 2550)},
     },
+    -- ========================================
+    -- ISLANDS
+    -- ========================================
+    Islands = {
+        World1 = {
+            {Name = "Jungle", CFrame = CFrame.new(-1200, 80, 300)},
+            {Name = "PirateVillage", CFrame = CFrame.new(-1100, 10, 3800)},
+            {Name = "Desert", CFrame = CFrame.new(900, 10, 4400)},
+            {Name = "Snow", CFrame = CFrame.new(1400, 100, -1300)},
+            {Name = "Marine", CFrame = CFrame.new(-5000, 30, 4300)},
+            {Name = "Sky", CFrame = CFrame.new(-4800, 700, -2600)},
+            {Name = "Prison", CFrame = CFrame.new(5300, 10, 500)},
+            {Name = "Colosseum", CFrame = CFrame.new(-1600, 10, -3000)},
+            {Name = "Magma", CFrame = CFrame.new(-5300, 15, 8500)},
+            {Name = "Fishman", CFrame = CFrame.new(61100, 20, 1500)},
+            {Name = "UpperSky", CFrame = CFrame.new(-7800, 5550, -400)},
+            {Name = "Fountain", CFrame = CFrame.new(5200, 40, 4000)},
+        },
+        World2 = {
+            {Name = "KingdomOfRose", CFrame = CFrame.new(-100, 50, 1800)},
+            {Name = "GraveYard", CFrame = CFrame.new(-5600, 100, -800)},
+            {Name = "SnowMountain", CFrame = CFrame.new(600, 400, -5400)},
+            {Name = "HotSpring", CFrame = CFrame.new(-5400, 30, -5300)},
+            {Name = "Factory", CFrame = CFrame.new(300, 80, -100)},
+            {Name = "IceCastle", CFrame = CFrame.new(-6200, 20, -4900)},
+            {Name = "ForgottenIsland", CFrame = CFrame.new(-3100, 230, -10000)},
+            {Name = "Ship", CFrame = CFrame.new(1000, 100, 33000)},
+            {Name = "Frost", CFrame = CFrame.new(5600, 30, -6500)},
+            {Name = "SeaOfTreats", CFrame = CFrame.new(-1100, 30, 28000)},
+        },
+        World3 = {
+            {Name = "PortTown", CFrame = CFrame.new(-300, 20, 2600)},
+            {Name = "HydraIsland", CFrame = CFrame.new(3300, 30, 200)},
+            {Name = "GreatTree", CFrame = CFrame.new(-4000, 50, -100)},
+            {Name = "CastleSea", CFrame = CFrame.new(-5000, 20, 500)},
+            {Name = "SeaCity", CFrame = CFrame.new(2000, 30, -3000)},
+        },
+    },
+
 }
