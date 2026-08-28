@@ -225,8 +225,8 @@ return {
     --       {Name = "Vice Admiral", CFrame = CFrame.new(??? )}, -- Marine Fortress
             {Name = "Mob Leader", CFrame = CFrame.new(-2848, 8, 5342)},
             {Name = "Saber Expert", CFrame = CFrame.new(-1458.89502, 29.8870335, -50.633564)},
-            {Name = "Warden", CFrame = CFrame.new(5411, 96, 690)},
-            {Name = "Chief Warden", CFrame = CFrame.new(5411, 96, 690)},
+            {Name = "Warden", CFrame = CFrame.new(5232, 96, 911)},
+            {Name = "Chief Warden", CFrame = CFrame.new(5232, 96, 911)},
             {Name = "Swan", CFrame = CFrame.new(5411, 96, 690)},
             {Name = "Magma Admiral", CFrame = CFrame.new(-5408, 11, 8447)},
             {Name = "Fishman Lord", CFrame = CFrame.new(61891, 19, 1470)},
