@@ -212,27 +212,28 @@ return {
             {Name = "SeaCity", CFrame = CFrame.new(2000, 30, -3000)},
         },
     },
-local Bosses = {
-    -- ========================================
-    -- 1 SEA (19 BOSS)
-    -- ========================================
-    World1 = {
-        {Name = "Gorilla King", CFrame = CFrame.new(-1237, 6, -486)},
-        {Name = "Bobby", CFrame = CFrame.new(-1145, 15, 4350)},
-        {Name = "Chef", CFrame = CFrame.new(-1145, 15, 4350)},
-      --  {Name = "Saw", CFrame = CFrame.new(??? )}, -- Middle Island
-        {Name = "Yeti", CFrame = CFrame.new(1289, 150, -1442)},
---       {Name = "Vice Admiral", CFrame = CFrame.new(??? )}, -- Marine Fortress
-        {Name = "Mob Leader", CFrame = CFrame.new(-2848, 8, 5342)},
-        {Name = "Saber Expert", CFrame = CFrame.new(-1458.89502, 29.8870335, -50.633564)},
-        {Name = "Warden", CFrame = CFrame.new(5411, 96, 690)},
-        {Name = "Chief Warden", CFrame = CFrame.new(5411, 96, 690)},
-        {Name = "Swan", CFrame = CFrame.new(5411, 96, 690)},
-        {Name = "Magma Admiral", CFrame = CFrame.new(-5408, 11, 8447)},
-        {Name = "Fishman Lord", CFrame = CFrame.new(61891, 19, 1470)},
-        {Name = "Wysper", CFrame = CFrame.new(-7685, 5567, -502)},
-        {Name = "Thunder God", CFrame = CFrame.new(-7795.9287109375, 5605.951171875, -2231.444580078125)},
-        {Name = "Cyborg", CFrame = CFrame.new(5649, 39, 4936)},
-        {Name = "Ice Admiral", CFrame = CFrame.new(1382.562255859375, 26.999441146850586, -1458.77783203125)}, -- перехід в 2 світ
-    },
+    local Bosses = {
+        -- ========================================
+        -- 1 SEA (19 BOSS)
+        -- ========================================
+        World1 = {
+            {Name = "Gorilla King", CFrame = CFrame.new(-1237, 6, -486)},
+            {Name = "Bobby", CFrame = CFrame.new(-1145, 15, 4350)},
+            {Name = "Chef", CFrame = CFrame.new(-1145, 15, 4350)},
+          --  {Name = "Saw", CFrame = CFrame.new(??? )}, -- Middle Island
+            {Name = "Yeti", CFrame = CFrame.new(1289, 150, -1442)},
+    --       {Name = "Vice Admiral", CFrame = CFrame.new(??? )}, -- Marine Fortress
+            {Name = "Mob Leader", CFrame = CFrame.new(-2848, 8, 5342)},
+            {Name = "Saber Expert", CFrame = CFrame.new(-1458.89502, 29.8870335, -50.633564)},
+            {Name = "Warden", CFrame = CFrame.new(5411, 96, 690)},
+            {Name = "Chief Warden", CFrame = CFrame.new(5411, 96, 690)},
+            {Name = "Swan", CFrame = CFrame.new(5411, 96, 690)},
+            {Name = "Magma Admiral", CFrame = CFrame.new(-5408, 11, 8447)},
+            {Name = "Fishman Lord", CFrame = CFrame.new(61891, 19, 1470)},
+            {Name = "Wysper", CFrame = CFrame.new(-7685, 5567, -502)},
+            {Name = "Thunder God", CFrame = CFrame.new(-7795.9287109375, 5605.951171875, -2231.444580078125)},
+            {Name = "Cyborg", CFrame = CFrame.new(5649, 39, 4936)},
+            {Name = "Ice Admiral", CFrame = CFrame.new(1382.562255859375, 26.999441146850586, -1458.77783203125)}, -- перехід в 2 світ
+        },
+    }
 }
