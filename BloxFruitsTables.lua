@@ -219,22 +219,20 @@ return {
         -- 1 SEA (16 BOSS)
         -- ========================================
         World1 = {
-            {Name = "Gorilla King", CFrame = CFrame.new(-1088, 6, -486)},
-            {Name = "Chef", CFrame = CFrame.new(-1132, 15, 4105)},
-            {Name = "Saw", CFrame = CFrame.new(753, 20, 1597)},
-            {Name = "Yeti", CFrame = CFrame.new(1121, 150, -1537)},
-            {Name = "Mob Leader", CFrame = CFrame.new(-2880, 15, 5430)},
-            {Name = "Vice Admiral", CFrame = CFrame.new(-5142, 120, 4447)},
-            {Name = "Saber Expert", CFrame = CFrame.new(-1484, 29, -89)},
-            {Name = "Warden", CFrame = CFrame.new(5278, 20, 944)},
-            {Name = "Chief Warden", CFrame = CFrame.new(5206, 20, 814)},
-            {Name = "Swan", CFrame = CFrame.new(5325, 33, 719)},
-            {Name = "Magma Admiral", CFrame = CFrame.new(-5521, 39, 8753)},
+            {Name = "Gorilla King", CFrame = CFrame.new(-1193, 30, -549)},
+            {Name = "Chef", CFrame = CFrame.new(-1120, 61, 4121)},
+            {Name = "The Saw", CFrame = CFrame.new(-773, 23, 1604)},
+            {Name = "Yeti", CFrame = CFrame.new(1181, 114, -1616)},
+            {Name = "Mob Leader", CFrame = CFrame.new(-2880, 23, 5430)},
+            {Name = "Vice Admiral", CFrame = CFrame.new(-5010, 30, 4383)},
+            {Name = "Warden", CFrame = CFrame.new(5623, 15, 733)},
+            {Name = "Magma Admiral", CFrame = CFrame.new(-5521, 39, 8753)},  ---STOP HERE
             {Name = "Fishman Lord", CFrame = CFrame.new(61352, 74, 1029)},
             {Name = "Wysper", CFrame = CFrame.new(-7995, 5567, -709)},
             {Name = "Thunder God", CFrame = CFrame.new(-7779, 5625, -2421)},
             {Name = "Cyborg", CFrame = CFrame.new(6216, 24, 3990)},
-            {Name = "Ice Admiral", CFrame = CFrame.new(1266, 46, -1399)},
+            {Name = "Ice Admiral", CFrame = CFrame.new(1212, 17, -1429)},
+            {Name = "Saber Expert", CFrame = CFrame.new(-1484, 29, -89)},
         },
     }
 }
