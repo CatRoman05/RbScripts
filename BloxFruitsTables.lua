@@ -233,8 +233,8 @@ return {
             {Name = "Tunder God", CFrame = CFrame.new(-7125, 5610, 111)},
             {Name = "Cyborg", CFrame = CFrame.new(6252, 15, 4941)},
             {Name = "Ice Admiral", CFrame = CFrame.new(1212, 27, -1429)},
-            {Name = "Saber Expert", CFrame = CFrame.new(-1527, 41, -33},
-            {Name = "Greybread", CFrame = CFrame.new(-4953, 28, 4159},
+            {Name = "Saber Expert", CFrame = CFrame.new(-1527, 41, -33)},
+            {Name = "Greybread", CFrame = CFrame.new(-4953, 28, 4159)},
         },
     }
 }
