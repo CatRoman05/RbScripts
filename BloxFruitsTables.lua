@@ -1,6 +1,6 @@
 return {
     -- ========================================
-    -- PORTALS (ENTRANCE)
+    -- PORTALS (ENTRANCE) WTF is it but without it not working
     -- ========================================
     Entrance = {
         Vector3.new(61163.8515625, 11.6796875, 1819.7841796875),
@@ -16,41 +16,41 @@ return {
         -- Levels 1-9: Bandit
         {Level = 1, MaxLevel = 9, Monster = "Bandit", Name = "BanditQuest1", Lvl = 1, Check = "Bandit", CFrameQ = CFrame.new(1060, 17, 1547), CFrameMon = CFrame.new(1145, 17, 1634)},
         -- Levels 10-14: Monkey
-        {Level = 10, MaxLevel = 14, Monster = "Monkey", Name = "JungleQuest", Lvl = 1, Check = "Monkey", CFrameQ = CFrame.new(-1602, 37, 152), CFrameMon = CFrame.new(-1496, 39, 35)},
+        {Level = 10, MaxLevel = 14, Monster = "Monkey", Name = "JungleQuest", Lvl = 1, Check = "Monkey", CFrameQ = CFrame.new(-1689, 50, 179), CFrameMon = CFrame.new(-1689, 50, 179))},
         -- Levels 15-29: Gorilla
-        {Level = 15, MaxLevel = 29, Monster = "Gorilla", Name = "JungleQuest", Lvl = 2, Check = "Gorilla", CFrameQ = CFrame.new(-1602, 37, 152), CFrameMon = CFrame.new(-1237, 6, -486)},
+        {Level = 15, MaxLevel = 29, Monster = "Gorilla", Name = "JungleQuest", Lvl = 2, Check = "Gorilla", CFrameQ = CFrame.new(-1689, 50, 179), CFrameMon = CFrame.new(-1335, 14, -521)},
         -- Levels 30-39: Pirate
-        {Level = 30, MaxLevel = 39, Monster = "Pirate", Name = "BuggyQuest1", Lvl = 1, Check = "Pirate", CFrameQ = CFrame.new(-1140, 5, 3828), CFrameMon = CFrame.new(-1115, 14, 3938)},
+        {Level = 30, MaxLevel = 39, Monster = "Pirate", Name = "BuggyQuest1", Lvl = 1, Check = "Pirate", CFrameQ = CFrame.new(-1147, 17, 3856), CFrameMon = CFrame.new(-1218, 17, 3949)},
         -- Levels 40-59: Brute
-        {Level = 40, MaxLevel = 59, Monster = "Brute", Name = "BuggyQuest1", Lvl = 2, Check = "Brute", CFrameQ = CFrame.new(-1140, 5, 3828), CFrameMon = CFrame.new(-1145, 15, 4350)},
+        {Level = 40, MaxLevel = 59, Monster = "Brute", Name = "BuggyQuest1", Lvl = 2, Check = "Brute", CFrameQ = CFrame.new(-1147, 17, 3856), CFrameMon = CFrame.new(-1207, 27, 4395)},
         -- Levels 60-74: Desert Bandit
-        {Level = 60, MaxLevel = 74, Monster = "Desert Bandit", Name = "DesertQuest", Lvl = 1, Check = "Desert Bandit", CFrameQ = CFrame.new(897, 7, 4388), CFrameMon = CFrame.new(932, 7, 4484)},
+        {Level = 60, MaxLevel = 74, Monster = "Desert Bandit", Name = "DesertQuest", Lvl = 1, Check = "Desert Bandit", CFrameQ = CFrame.new(926, 6, 4203), CFrameMon = CFrame.new(914, 6, 4524)},
         -- Levels 75-89: Desert Officer
-        {Level = 75, MaxLevel = 89, Monster = "Desert Officer", Name = "DesertQuest", Lvl = 2, Check = "Desert Officers", CFrameQ = CFrame.new(897, 7, 4388), CFrameMon = CFrame.new(1572, 10, 4373)},
+        {Level = 75, MaxLevel = 89, Monster = "Desert Officer", Name = "DesertQuest", Lvl = 2, Check = "Desert Officers", CFrameQ = CFrame.new(926, 6, 4203), CFrameMon = CFrame.new(1568, 14, 4175)},
         -- Levels 90-99: Snow Bandit
-        {Level = 90, MaxLevel = 99, Monster = "Snow Bandit", Name = "SnowQuest", Lvl = 1, Check = "Snow Bandits", CFrameQ = CFrame.new(1386, 87, -1297), CFrameMon = CFrame.new(1289, 150, -1442)},
+        {Level = 90, MaxLevel = 99, Monster = "Snow Bandit", Name = "SnowQuest", Lvl = 1, Check = "Snow Bandits", CFrameQ = CFrame.new(1396, 78, -1303), CFrameMon = CFrame.new(1370, 78, -1382)},
         -- Levels 100-119: Snowman
-        {Level = 100, MaxLevel = 119, Monster = "Snowman", Name = "SnowQuest", Lvl = 2, Check = "Snowman", CFrameQ = CFrame.new(1386, 87, -1297), CFrameMon = CFrame.new(1289, 150, -1442)},
+        {Level = 100, MaxLevel = 119, Monster = "Snowman", Name = "SnowQuest", Lvl = 2, Check = "Snowman", CFrameQ = CFrame.new(1396, 78, -1303), CFrameMon = CFrame.new(1191, 99, -1626)},
         -- Levels 120-149: Chief Petty Officer
-        {Level = 120, MaxLevel = 149, Monster = "Chief Petty Officer", Name = "MarineQuest2", Lvl = 1, Check = "Chief Petty Officer", CFrameQ = CFrame.new(-5036, 29, 4325), CFrameMon = CFrame.new(-4855, 23, 4308)},
+        {Level = 120, MaxLevel = 149, Monster = "Chief Petty Officer", Name = "MarineQuest2", Lvl = 1, Check = "Chief Petty Officer", CFrameQ = CFrame.new(-4692, 6, 4220), CFrameMon = CFrame.new(-4841, 25, 4283)},
         -- Levels 150-174: Sky Bandit
-        {Level = 150, MaxLevel = 174, Monster = "Sky Bandit", Name = "SkyQuest", Lvl = 1, Check = "Sky Bandit", CFrameQ = CFrame.new(-4842, 718, -2623), CFrameMon = CFrame.new(-4981, 278, -2830)},
+        {Level = 150, MaxLevel = 174, Monster = "Sky Bandit", Name = "SkyQuest", Lvl = 1, Check = "Sky Bandit", CFrameQ = CFrame.new(-4746, 967, -738), CFrameMon = CFrame.new(-5110, 279, -1004)},
         -- Levels 175-189: Dark Master
-        {Level = 175, MaxLevel = 189, Monster = "Dark Master", Name = "SkyQuest", Lvl = 2, Check = "Dark Master", CFrameQ = CFrame.new(-4842, 718, -2623), CFrameMon = CFrame.new(-5250, 389, -2272)},
+        {Level = 175, MaxLevel = 189, Monster = "Dark Master", Name = "SkyQuest", Lvl = 2, Check = "Dark Master", CFrameQ = CFrame.new(-4746, 967, -738), CFrameMon = CFrame.new(-5314, 502, -364)},
         -- Levels 190-209: Prisoner
-        {Level = 190, MaxLevel = 209, Monster = "Prisoner", Name = "PrisonerQuest", Lvl = 1, Check = "Prisoners", CFrameQ = CFrame.new(5308, 2, 474), CFrameMon = CFrame.new(5411, 96, 690)},
+        {Level = 190, MaxLevel = 209, Monster = "Prisoner", Name = "PrisonerQuest", Lvl = 1, Check = "Prisoners", CFrameQ = CFrame.new(5196, 20, 738), CFrameMon = CFrame.new(5273, 10, 483)},
         -- Levels 210-249: Dangerous Prisoner
-        {Level = 210, MaxLevel = 249, Monster = "Dangerous Prisoner", Name = "PrisonerQuest", Lvl = 2, Check = "Dangerous Prisoner", CFrameQ = CFrame.new(5308, 2, 474), CFrameMon = CFrame.new(5411, 96, 690)},
+        {Level = 210, MaxLevel = 249, Monster = "Dangerous Prisoner", Name = "PrisonerQuest", Lvl = 2, Check = "Dangerous Prisoner", CFrame.new(5196, 20, 738), CFrameMon = CFrame.new(5333, 20, 729)},
         -- Levels 250-299: Toga Warrior
-        {Level = 250, MaxLevel = 299, Monster = "Toga Warrior", Name = "ColosseumQuest", Lvl = 1, Check = "Toga Warrior", CFrameQ = CFrame.new(-1576, 8, -2985), CFrameMon = CFrame.new(-1641, 7, -2864)},
+        {Level = 250, MaxLevel = 299, Monster = "Toga Warrior", Name = "ColosseumQuest", Lvl = 1, Check = "Toga Warrior", CFrameQ = CFrame.new(-1349, 12, -2922), CFrameMon = CFrame.new(-1744, 12, -2735)},
         -- Levels 300-329: Military Soldier
-        {Level = 300, MaxLevel = 329, Monster = "Military Soldier", Name = "MagmaQuest", Lvl = 1, Check = "Military Soldier", CFrameQ = CFrame.new(-5316, 12, 8517), CFrameMon = CFrame.new(-5408, 11, 8447)},
+        {Level = 300, MaxLevel = 329, Monster = "Military Soldier", Name = "MagmaQuest", Lvl = 1, Check = "Military Soldier", CFrameQ = CFrame.new(-5318, 18, 8483), CFrameMon = CFrame.new(-5375, 19, 8477)},
         -- Levels 330-374: Military Spy
-        {Level = 330, MaxLevel = 374, Monster = "Military Spy", Name = "MagmaQuest", Lvl = 2, Check = "Military Spy", CFrameQ = CFrame.new(-5316, 12, 8517), CFrameMon = CFrame.new(-5815, 84, 8820)},
+        {Level = 330, MaxLevel = 374, Monster = "Military Spy", Name = "MagmaQuest", Lvl = 2, Check = "Military Spy", CFrameQ = CFrame.new(-5318, 18, 8483), CFrameMon = CFrame.new(-5802, 77, 8849)},
         -- Levels 375-399: Fishman Warrior
-        {Level = 375, MaxLevel = 399, Monster = "Fishman Warrior", Name = "FishmanQuest", Lvl = 1, Check = "Fishman Warrior", CFrameQ = CFrame.new(61123, 19, 1569), CFrameMon = CFrame.new(60859, 19, 1501)},
+        {Level = 375, MaxLevel = 399, Monster = "Fishman Warrior", Name = "FishmanQuest", Lvl = 1, Check = "Fishman Warrior", CFrameQ = CFrame.new(61398, 25, 1636), CFrameMon = CFrame.new(60859, 19, 1501)},    --STOP here
         -- Levels 400-449: Fishman Commando
-        {Level = 400, MaxLevel = 449, Monster = "Fishman Commando", Name = "FishmanQuest", Lvl = 2, Check = "Fishman Commando", CFrameQ = CFrame.new(61123, 19, 1569), CFrameMon = CFrame.new(61891, 19, 1470)},
+        {Level = 400, MaxLevel = 449, Monster = "Fishman Commando", Name = "FishmanQuest", Lvl = 2, Check = "Fishman Commando", CFrameQ = CFrame.new(61398, 25, 1636), CFrameMon = CFrame.new(61932, 25, 1354)},
         -- Levels 450-474: God's Guard
         {Level = 450, MaxLevel = 474, Monster = "God's Guard", Name = "SkyExp1Quest", Lvl = 1, Check = "God's Guards", CFrameQ = CFrame.new(-4722, 845, -1954), CFrameMon = CFrame.new(-4698, 845, -1912)},
         -- Levels 475-524: Shanda
