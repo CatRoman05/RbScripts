@@ -191,7 +191,8 @@ return {
             {Name = "Colosseum", CFrame = CFrame.new(-1515, 76, -3026)},
             {Name = "Magma Village", CFrame = CFrame.new(-5217, 21, 8417)},
             {Name = "Underwater City", CFrame = CFrame.new(61354, 69, 1298)},
-            {Name = "Upper Skylands", CFrame = CFrame.new(-4747, 977, -795)},
+            {Name = "Skylands", CFrame = CFrame.new(-4747, 977, -795)},
+            {Name = "Upper Skylands", CFrame = CFrame.new(-7073, 5612, 684)},
             {Name = "Fountain City", CFrame = CFrame.new(5165, 81, 4051)},
         },
         World2 = {
@@ -226,13 +227,14 @@ return {
             {Name = "Mob Leader", CFrame = CFrame.new(-2880, 23, 5430)},
             {Name = "Vice Admiral", CFrame = CFrame.new(-5010, 30, 4383)},
             {Name = "Warden", CFrame = CFrame.new(5623, 15, 733)},
-            {Name = "Magma Admiral", CFrame = CFrame.new(-5521, 39, 8753)},  ---STOP HERE
+            {Name = "Magma Admiral", CFrame = CFrame.new(-5625, 65, 8623)}
             {Name = "Fishman Lord", CFrame = CFrame.new(61352, 74, 1029)},
-            {Name = "Wysper", CFrame = CFrame.new(-7995, 5567, -709)},
-            {Name = "Thunder God", CFrame = CFrame.new(-7779, 5625, -2421)},
-            {Name = "Cyborg", CFrame = CFrame.new(6216, 24, 3990)},
-            {Name = "Ice Admiral", CFrame = CFrame.new(1212, 17, -1429)},
-            {Name = "Saber Expert", CFrame = CFrame.new(-1484, 29, -89)},
+            {Name = "Whysper", CFrame = CFrame.new(-6271, 5479, 1887)},
+            {Name = "Tunder God", CFrame = CFrame.new(-7125, 5610, 111)},
+            {Name = "Cyborg", CFrame = CFrame.new(6252, 15, 4941)},
+            {Name = "Ice Admiral", CFrame = CFrame.new(1212, 27, -1429)},
+            {Name = "Saber Expert", CFrame = CFrame.new(-1527, 41, -33},
+            {Name = "Greybread", CFrame = CFrame.new(-4953, 28, 4159},
         },
     }
 }
