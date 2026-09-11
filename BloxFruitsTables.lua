@@ -227,7 +227,7 @@ return {
             {Name = "Mob Leader", CFrame = CFrame.new(-2880, 23, 5430)},
             {Name = "Vice Admiral", CFrame = CFrame.new(-5010, 30, 4383)},
             {Name = "Warden", CFrame = CFrame.new(5623, 15, 733)},
-            {Name = "Magma Admiral", CFrame = CFrame.new(-5625, 65, 8623)}
+            {Name = "Magma Admiral", CFrame = CFrame.new(-5625, 65, 8623)},
             {Name = "Fishman Lord", CFrame = CFrame.new(61352, 74, 1029)},
             {Name = "Whysper", CFrame = CFrame.new(-6271, 5479, 1887)},
             {Name = "Tunder God", CFrame = CFrame.new(-7125, 5610, 111)},
