@@ -48,21 +48,21 @@ return {
         -- Levels 330-374: Military Spy
         {Level = 330, MaxLevel = 374, Monster = "Military Spy", Name = "MagmaQuest", Lvl = 2, Check = "Military Spy", CFrameQ = CFrame.new(-5318, 18, 8483), CFrameMon = CFrame.new(-5802, 77, 8849)},
         -- Levels 375-399: Fishman Warrior
-        {Level = 375, MaxLevel = 399, Monster = "Fishman Warrior", Name = "FishmanQuest", Lvl = 1, Check = "Fishman Warrior", CFrameQ = CFrame.new(61398, 25, 1636), CFrameMon = CFrame.new(60859, 19, 1501)},    --STOP here
+        {Level = 375, MaxLevel = 399, Monster = "Fishman Warrior", Name = "FishmanQuest", Lvl = 1, Check = "Fishman Warrior", CFrameQ = CFrame.new(61398, 25, 1636), CFrameMon = CFrame.new(60788, 25, 1357)},
         -- Levels 400-449: Fishman Commando
-        {Level = 400, MaxLevel = 449, Monster = "Fishman Commando", Name = "FishmanQuest", Lvl = 2, Check = "Fishman Commando", CFrameQ = CFrame.new(61398, 25, 1636), CFrameMon = CFrame.new(61932, 25, 1354)},
+        {Level = 400, MaxLevel = 449, Monster = "Fishman Commando", Name = "FishmanQuest", Lvl = 2, Check = "Fishman Commando", CFrameQ = CFrame.new(61398, 25, 1636), CFrameMon = CFrame.new(61935, 25, 1338)},
         -- Levels 450-474: God's Guard
-        {Level = 450, MaxLevel = 474, Monster = "God's Guard", Name = "SkyExp1Quest", Lvl = 1, Check = "God's Guards", CFrameQ = CFrame.new(-4722, 845, -1954), CFrameMon = CFrame.new(-4698, 845, -1912)},
+        {Level = 450, MaxLevel = 474, Monster = "God's Guard", Name = "SkyExp1Quest", Lvl = 1, Check = "God's Guards", CFrameQ = CFrame.new(-5955, 5469, 2088), CFrameMon = CFrame.new(-4276, 1090, -418)},
         -- Levels 475-524: Shanda
-        {Level = 475, MaxLevel = 524, Monster = "Shanda", Name = "SkyExp1Quest", Lvl = 2, Check = "Shandas", CFrameQ = CFrame.new(-7862, 5546, -380), CFrameMon = CFrame.new(-7685, 5567, -502)},
+        {Level = 475, MaxLevel = 524, Monster = "Shanda", Name = "SkyExp1Quest", Lvl = 2, Check = "Shandas", CFrameQ = CFrame.new(-5955, 5469, 2088), CFrameMon = CFrame.new(-5958, 5469, 1809)},
         -- Levels 525-549: Royal Squad
-        {Level = 525, MaxLevel = 549, Monster = "Royal Squad", Name = "SkyExp2Quest", Lvl = 1, Check = "Royal Squad", CFrameQ = CFrame.new(-7904, 5636, -1412), CFrameMon = CFrame.new(-7670, 5607, -1460)},
+        {Level = 525, MaxLevel = 549, Monster = "Royal Squad", Name = "SkyExp2Quest", Lvl = 1, Check = "Royal Squad", CFrameQ = CFrame.new(-7026, 5592, 1348), CFrameMon = CFrame.new(-6806, 5550, 1225)},
         -- Levels 550-624: Royal Soldier
-        {Level = 550, MaxLevel = 624, Monster = "Royal Soldier", Name = "SkyExp2Quest", Lvl = 2, Check = "Royal Soldier", CFrameQ = CFrame.new(-7904, 5636, -1412), CFrameMon = CFrame.new(-7828, 5607, -1744)},
+        {Level = 550, MaxLevel = 624, Monster = "Royal Soldier", Name = "SkyExp2Quest", Lvl = 2, Check = "Royal Soldier", CFrameQ = CFrame.new(-7026, 5592, 1348), CFrameMon = CFrame.new(-7032, 5541, 900)},
         -- Levels 625-649: Galley Pirate
-        {Level = 625, MaxLevel = 649, Monster = "Galley Pirate", Name = "FountainQuest", Lvl = 1, Check = "Galley Pirate", CFrameQ = CFrame.new(5256, 39, 4050), CFrameMon = CFrame.new(5589, 45, 3996)},
+        {Level = 625, MaxLevel = 649, Monster = "Galley Pirate", Name = "FountainQuest", Lvl = 1, Check = "Galley Pirate", CFrameQ = CFrame.new(5253, 76, 4090), CFrameMon = CFrame.new(5571, 76, 4056)},
         -- Levels 650-699: Galley Captain
-        {Level = 650, MaxLevel = 699, Monster = "Galley Captain", Name = "FountainQuest", Lvl = 2, Check = "Galley Captain", CFrameQ = CFrame.new(5256, 39, 4050), CFrameMon = CFrame.new(5649, 39, 4936)},
+        {Level = 650, MaxLevel = 699, Monster = "Galley Captain", Name = "FountainQuest", Lvl = 2, Check = "Galley Captain", CFrameQ = CFrame.new(5253, 76, 4090), CFrameMon = CFrame.new(5639, 73, 4756)},
         
         -- ========================================
         -- QUEST 2 SEA
