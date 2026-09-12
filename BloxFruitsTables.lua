@@ -236,5 +236,27 @@ return {
             {Name = "Saber Expert", CFrame = CFrame.new(-1527, 41, -33)},
             {Name = "Greybread", CFrame = CFrame.new(-4953, 28, 4159)},
         },
+    },
+    Buyable = {
+        SWORDS = {
+            {name = "Cutlass",            id = "Cutlass"},
+            {name = "Katana",             id = "Katana"},
+            {name = "Dual Katana",        id = "Dual Katana"},
+            {name = "Triple Katana",      id = "Triple Katana"},
+            {name = "Dark Blade",         id = "Dark Blade"},
+            {name = "Bisento",            id = "Bisento"},
+            {name = "Soul Cane",          id = "Soul Cane"},
+            {name = "Dual-Headed Blade",  id = "Dual-Headed Blade"},
+            {name = "Iron Mace",          id = "Iron Mace"},
+            {name = "Pipe",               id = "Pipe"},
+        },
+        GUNS = {
+            {name = "Cannon",             id = "Cannon"},
+            {name = "Musket",             id = "Musket"},
+            {name = "Slingshot",          id = "Slingshot"},
+            {name = "Refined Slingshot",  id = "Refined Slingshot"},
+            {name = "Flintlock",          id = "Flintlock"},
+            {name = "Dual Flintlock",     id = "Dual Flintlock"},
+        }
     }
 }
