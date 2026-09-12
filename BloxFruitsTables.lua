@@ -16,7 +16,7 @@ return {
         -- Levels 1-9: Bandit
         {Level = 1, MaxLevel = 9, Monster = "Bandit", Name = "BanditQuest1", Lvl = 1, Check = "Bandit", CFrameQ = CFrame.new(1060, 17, 1547), CFrameMon = CFrame.new(1145, 17, 1634)},
         -- Levels 10-14: Monkey
-        {Level = 10, MaxLevel = 14, Monster = "Monkey", Name = "JungleQuest", Lvl = 1, Check = "Monkey", CFrameQ = CFrame.new(-1689, 50, 179), CFrameMon = CFrame.new(-1689, 50, 179))},
+        {Level = 10, MaxLevel = 14, Monster = "Monkey", Name = "JungleQuest", Lvl = 1, Check = "Monkey", CFrameQ = CFrame.new(-1689, 50, 179), CFrameMon = CFrame.new(-1689, 50, 179)},
         -- Levels 15-29: Gorilla
         {Level = 15, MaxLevel = 29, Monster = "Gorilla", Name = "JungleQuest", Lvl = 2, Check = "Gorilla", CFrameQ = CFrame.new(-1689, 50, 179), CFrameMon = CFrame.new(-1335, 14, -521)},
         -- Levels 30-39: Pirate
