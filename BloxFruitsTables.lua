@@ -260,6 +260,11 @@ return {
             "Cannon",
             "Bazooka",
             "Kabucha",
+        },
+        ACCESSORIES = {
+            {"Black Cape"},
+            {"Swordsman Hat"},
+            {"Tomoe Ring"},
         }
     }
 }
